@@ -8,7 +8,7 @@ import com.littleinc.orm_benchmark.sqlite.SQLiteExecutor;
 
 public class Application extends android.app.Application {
 
-    private static final boolean USE_IN_MEMORY_DB = false;
+    private static final boolean USE_IN_MEMORY_DB = true;
 
     @Override
     public void onCreate() {

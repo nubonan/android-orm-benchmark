@@ -11,6 +11,7 @@
 ant.properties
 local.properties
 
+.gradle
 .settings/
 *.DS_Store
 

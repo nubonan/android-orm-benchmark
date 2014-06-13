@@ -105,6 +105,7 @@ public enum SQLiteExecutor implements BenchmarkExecutable {
                     null, null, null);
 
             while (c != null && c.moveToNext()) {
+
                 Message newMessage = new Message();
                 newMessage.setChannelId(c.getLong(c
                         .getColumnIndex(Message.CHANNEL_ID)));
