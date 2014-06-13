@@ -15,7 +15,9 @@ local.properties
 .settings/
 *.DS_Store
 
-.idea
+.idea/
+build/
+out/
 *.iml
 out
 *.bin
